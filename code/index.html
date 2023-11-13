@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatas -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="How Sweet Is This! - Assignment 3">
+
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Links to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <!-- Title of the HTML document -->
+    <title>CSS | Assignment 3</title>
+</head>
+
+<body>
+    <!-- Header section with logo and navigation -->
+    <header>
+        <div>
+            <!-- Link to the home page with a logo -->
+            <a href="index.html"><img src="./img/reeses-logo.png" alt="reese's logo"></a>
+        </div>
+        <!-- Navigation menu -->
+        <nav>
+            <menu>
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#svg-examples">SVGs</a></li>
+                <li><a href="#drop-shadow">Drop Shadows</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- Background image -->
+        <img class="reeses-background" src="./img/reeses-background.jpg" alt="reeses-background">
+
+        <!-- Main heading -->
+        <h1 class="info">About Reese's</h1>
+
+        <!-- Section containing text about Reese's -->
+        <div class="text">
+            <p id="p1">The ingenious flavor combination in each of these treats can be traced back to 1928, when H.B. Reese, an employee of The Hershey Company, created REESE'S Peanut Butter Cups in his basement. The Hershey Company supplied Reese with the chocolate coating for his candy and eventually purchased his business in 1963.</p>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Contact form -->
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            </div>
+            <!-- Submit button-->
+            <div class="submit">
+                <a href="index.html" class="btn btn-1">
+                    <svg>
+                        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    Submit
+                </a>
+            </div>
+        </div>
+
+        <!-- Company information section -->
+        <div class="company-info-container">
+            <section class="company-info">
+                <h3>Information</h3>
+                <img src="./img/reeses-logo.png" alt="reeses-logo">
+                <!--company details -->
+                <div class="info-item">
+                    <strong>Name:</strong> Reese's Chocolate Company
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> info@reeseschocolate.com
+                </div>
+                <div class="info-item">
+                    <strong>Address:</strong>  2820 Bransford Ave, United States
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> +1 (555) 123-4567
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
